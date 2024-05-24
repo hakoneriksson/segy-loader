@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "segy-loader"
+version = "1.0.0" # x-release-please-version
+description = "Script for converting segy files .NC models"
+authors = []
+license = ""
+
+[tool.poetry.dependencies]
+python = "~3.11"
+segysak = "^0.4.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
